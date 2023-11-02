@@ -35,6 +35,8 @@
 - langdetect
 - catboost
 - sklearn
+- scipy
+- LaBSE
 
 ## Основные шаги
 

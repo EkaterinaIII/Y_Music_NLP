@@ -5,6 +5,12 @@
 **Цель проекта:**  
 Улучшение качества рекомендаций музыкального сервиса путем точного определения и классификации каверов.
 
+**Ссылка на проект:**  
+[`ipynb`](https://github.com/EkaterinaIII/Y_Music_NLP/blob/main/y_music.ipynb)  - основной файл
+
+**Если проект не открывается, его можно просмотреть по этой ссылке:**  
+[`nbviewer`](https://nbviewer.org/github/EkaterinaIII/Y_Music_NLP/blob/main/y_music.ipynb)
+
 **Описание данных:**
 
 В нашем распоряжении 3 таблицы:
@@ -19,15 +25,6 @@
   - ***cat_text***: модель обученая на меньшем количестве данных, но с текстами треков
   - ***cat_without_text***: модель обученая на меньшем количестве данных, но с текстами треков
   - ***met_cat***: модель обученая на всех данных без текста
-
- 
-***
-
-**Ссылка на проект:**  
-[`ipynb`](https://github.com/EkaterinaIII/Y_Music_NLP/blob/main/y_music.ipynb)  
-
-**Если проект не открывается, его можно просмотреть по этой ссылке:**  
-[`nbviewer`](https://nbviewer.org/github/EkaterinaIII/Y_Music_NLP/blob/main/y_music.ipynb)
 
 ***
 

@@ -5,12 +5,20 @@
 **Цель проекта:**  
 Улучшение качества рекомендаций музыкального сервиса путем точного определения и классификации каверов.
 
-😀 **Состав команды и роли:**  
-* Никифорова Юлия - PM &nbsp;&nbsp;&nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@Niki_for_Ova)
-* Прозоров Кирилл - DS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@prozorovpro)
-* Куликова Екатерина - DS &nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@EkaterinaTretia)
-* Егоров Михаил - DS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@mikenonstop)
+**Описание данных:**
 
+В нашем распоряжении 3 таблицы:
+- ***meta***: содержит метаданые о музыкальных треках;
+- ***covers***: содержит разметку кавер/оригинал;
+- ***lyrics***: содержит тексты песен.
+
+Также в работе используются следующие файлы:  
+
+- ***keywords***: содержит список слов которые могут указывать на кавер (covers, remix и подобные) преведенные на 50 самых встречающихся языков;
+- файлы с обучеными моделями:
+  - ***cat_full_df_with_ganre_final***: модель обученая на данных без текста;
+  - ***cat_text_df_with_ganre***: модель обученая на меньшем количестве данных, но с текстами треков.
+ 
 ***
 
 **Ссылка на проект:**  
@@ -18,6 +26,14 @@
 
 **Если проект не открывается, его можно просмотреть по этой ссылке:**  
 [`nbviewer`](https://nbviewer.org/github/EkaterinaIII/Y_Music_NLP/blob/main/y_music.ipynb)
+
+***
+
+😀 **Состав команды и роли:**  
+* Никифорова Юлия - PM &nbsp;&nbsp;&nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@Niki_for_Ova)
+* Прозоров Кирилл - DS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@prozorovpro)
+* Куликова Екатерина - DS &nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@EkaterinaTretia)
+* Егоров Михаил - DS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<img src="https://github.com/mike2023-ml/Portfolio/assets/116313032/d3f08c03-7dec-490e-ad39-75152295c4d5" title="Telegram" alt="Telegram" width="20" height="20"/>@mikenonstop)
 
 ***
 
